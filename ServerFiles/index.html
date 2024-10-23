@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sigma Gyatt</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+    <script src="javascripts/basic.js"></script>
+
+
+
+
+    <datalist id="currencies">
+        <option value="USD">
+        <option value="GBP">
+        <option value="MXN">
+        <option value="CAD">
+        <option value="GTQ">
+        <option value="BZD">
+        <option value="HNL">
+        <option value="NIO">
+        <option value="CRC">
+        <option value="PAB">
+        <option value="COL">
+        <option value="VEF">
+        <option value="PEN">
+        <option value="BOB">
+        <option value="CLP">
+        <option value="UYU">
+        <option value="PYG">
+        <option value="CNY">
+        <option value="ARS">
+        <option value="BRL">
+        
+        
+    </datalist>
+
+    <datalist id="countrys"> 
+        <option value="Argentina">
+        <option value="Canada">
+        <option value="China">
+        <option value="Mexico">
+        <option value="Peru">
+        <option value="United States of America">
+        <option value="United Kingdom">
+            <option value="Paraguay">
+            <option value="Uruguay">
+            <option value="Equador">
+            <option value="Colombia">
+            <option value="Venezuela">
+            <option value="Brazil">
+            <option value="Costa Rica">
+    </datalist>
+
+    <datalist>
+            
+    </datalist>
+
+
+
+</head>
+    
+    <body>
+        <h1>
+            ECONOMY EARTH
+        </h1>
+        <input list="currencies" name="currency" id="currency" placeholder="Search currencies" class="searchbar">
+        <button class="changeButton" onclick="rewriteRatio(document.getElementById('currency').value)">$</button>
+         <p class="blocks"><script>valRatioPrint(100);</script></p>
+        <button class="homeButton" onclick="homePage()">HOME</button>
+        <p>Enter in your preferred currency here!</p>
+       
+        <div class="centered"> 
+            <input list="countrys" name="Country" id="Country" placeholder="Enter a country name here" class="countrySearchBar">
+            <button class="countryButton" onclick="gotoPage(document.getElementById('Country').value)">GO!</button>
+        </div>
+        
+    </body>
+</html>

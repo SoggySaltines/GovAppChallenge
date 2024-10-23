@@ -1,0 +1,124 @@
+p{
+    color:rgb(255, 251, 234);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.blocks{
+    color:rgb(255, 251, 234);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: right;
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+h1{
+    height: 128px;
+    line-height: 128px;
+    font-size: 48px;
+    color: black;
+    background-color: #fffbea;
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -8px; 
+    margin-right: -8px;
+    margin-bottom: 0px;
+}
+
+body{
+    background-image: image("black.png");
+    background-color: rgb(10, 9, 10);
+    background-size: 1000px;
+}
+
+.earth{
+    width: 1600px;
+    height: 600px;
+    text-align: center;
+}
+
+.searchbar{
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 5px;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    border-style: solid;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.countrySearchBar{
+    font-size: 32px;
+    border-radius: 48px;
+    padding-left: 16px;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    border-style: solid;
+    margin: auto;
+    display: block;
+    height: 48px;
+    background-color:aliceblue;
+    cursor: pointer;
+}
+.countryButton{
+    width: 80px;
+    height: 24px;
+    padding: 0px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.homeButton{
+    width: 60px;
+    height: 24px;
+    font-size: 16;
+    float: right;
+    background-color: rgb(10, 9, 10);
+    border-color:#fffbea;
+    color: #fffbea;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    margin-right: 12px;
+    margin-top: 9px;
+
+}
+.centered{
+    width: 50%;
+    margin: auto;
+}
+
+.centeredText{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 36px;
+}
+
+.money{
+    width: 35%;
+    font-size: 36px; 
+    color: black;
+    background-color: rgb(240, 236, 223);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    text-align: center;
+    margin-top: 32px;
+}   
+.changeButton{
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+    font-size: 12px;
+    cursor: pointer;
+}

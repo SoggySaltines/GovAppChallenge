@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascripts/basic.js"></script>
+    <link rel="stylesheet" href="stylesheets/index.css">
+
+
+
+    <datalist id="currencies">
+        <option value="USD">
+        <option value="GBP">
+        <option value="MXN">
+        <option value="CAD">
+        <option value="GTQ">
+        <option value="BZD">
+        <option value="HNL">
+        <option value="NIO">
+        <option value="CRC">
+        <option value="PAB">
+        <option value="COL">
+        <option value="VEF">
+        <option value="PEN">
+        <option value="BOB">
+        <option value="CLP">
+        <option value="UYU">
+        <option value="PYG">
+        <option value="CNY">
+        <option value="ARS">
+        <option value="BRL">
+    </datalist>
+
+
+    
+</head>
+
+
+
+<body>
+
+
+
+    <h1> 
+        Canada
+    </h1>
+
+    <input list="currencies" name="currency" id="currency" placeholder="Search currencies" class="searchbar">
+
+    <button class="changeButton" onclick="rewriteRatio(document.getElementById('currency').value)">
+        $
+    </button>
+
+    <button class="homeButton" onclick="homePage()">
+        HOME
+    </button>
+
+    <p class="money">
+        This country uses the Canadian Dollar <br>
+       <script>valPrint(10);</script> = <script>setValPrintCAD(10)</script>
+    </p>
+
+    <p class="money">
+       GDP:   
+       <script>valRatioPrint(2139840000000);</script>
+    </p>
+
+    <p class="money">
+       The average Monthly Income is<br>
+       <script>valRatioPrint(4494);</script>
+    </p>
+
+    <p class="money">
+       0.7% of the country lives on <br>
+       <script>valRatioPrint(6.85);</script>
+       /Day
+    </p>
+
+    <p class="money">
+        6.5% of the country is unemployed
+    </p>
+
+    <p class="centeredText">
+        Some simple facts about their life: 
+    </p>
+
+    <p class="money">
+        The average Cost of a loaf of Bread is<br>
+        <script>valRatioPrint(2.66);</script>
+    </p>
+
+    <p class="money">
+        The average Cost of a liter Milk is<br>
+        <script>valRatioPrint(2.19);</script>
+    </p>
+    <p class="money">
+        The average Cost of a kilogram of Rice is<br>
+        <script>valRatioPrint(3.66);</script>
+    </p>
+
+
+
+</body>
+
+
+
+</html>
